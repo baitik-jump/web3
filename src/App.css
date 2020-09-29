@@ -1,0 +1,31 @@
+.button {
+  padding: 20px;
+  background: green;
+  color: white;
+  height: 50px;
+  width: 100px;
+}
+.first-page{
+  padding-top: 50px;
+  height: 100vh;
+  background: rgba(255, 0, 0, .3);
+
+}
+.second-page{
+  height: 100vh;
+  background: rgba(0,255,0,.3);
+}
+
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  height: 50px;
+  width: 100vw;
+  background: 2px 2px 2px rgba(0,0,0,0.2);
+}
+
+.navigation > div {
+  padding-right: 50px;
+  display: flex;
+}

@@ -1,0 +1,79 @@
+import React from 'react';
+import Scrollchor from 'react-scrollchor';
+import logo from './pic/logo.jpg'
+export const Categories  = (props) =>{
+  return(
+    <div className="main">
+
+    <div className="positfix">
+    </div>
+    <div className="logo">
+    <a className="logotext" href="index.html"><img className="logotip" src={logo} width="50" height="50" /> O D E S H K A</a>
+    </div>
+    <div className="header3">
+    <div className="block8">
+    <div className="styles">
+    <p id = "perehod" className="stylestext">Стили</p>
+    </div>
+    <div className="stick">
+    </div>
+    <div className="categories1">
+    <p className="categoriestext1">КАТЕГОРИИ</p></div>
+
+    </div>
+    <div className="mainblocks9">
+    <div className="block9">
+    <div className="posita">
+    <p className="classic" href="">Гранж</p>
+    </div>
+    <div className="posita12">
+    <a className="goover1" href="">Перейти</a>
+    </div>
+    </div>
+    <div className="block10">
+    <div className="posita">
+    <p className="street">Уличный</p>
+    </div>
+    <div className="posita12">
+    <a className="goover2" href="">Перейти</a>
+    </div>
+    </div>
+    <div className="block11">
+    <div className="posita">
+    <p className="grange">Гранж</p>
+    </div>
+    <div className="posita12">
+    <a className="goover3" href="">Перейти</a>
+    </div>
+    </div>
+    <div className="block12">
+    <div className="posita">
+    <p className="vintage">Винтаж</p>
+    </div>
+    <div className="posita12">
+    <a className="goover4" href="">Перейти</a>
+    </div>
+    </div>
+    <div className="block13">
+    <div className="posita">
+    <p className="soft">Софт</p>
+    </div>
+    <div className="posita12">
+    <a className="goover5" href="">Перейти</a>
+    </div>
+    </div>
+    <div className="block14">
+    <div className="posita">
+    <p className="casual">Кэжуал</p>
+    </div>
+    <div className="posita12">
+    <a className="goover6" href="">Перейти</a>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+
+  )
+}
